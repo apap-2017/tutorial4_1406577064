@@ -51,7 +51,6 @@ public class StudentServiceDatabase implements StudentService
 
 	@Override
 	public void updateStudent(StudentModel student) {
-		// TODO Auto-generated method stub
 		log.info (student + "updated");
 		studentMapper.updateStudent(student);
 	}
